@@ -1,0 +1,150 @@
+.icon-about_1:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../images/sprite.png');
+    background-position: 0px -319px;
+    background-size: 476px 444px;
+    width: 122px;
+    height: 55px;
+}
+.icon-about_2:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../images/sprite.png');
+    background-position: 0px -140px;
+    background-size: 476px 444px;
+    width: 138px;
+    height: 90px;
+}
+.icon-about_3:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../images/sprite.png');
+    background-position: -143px -140px;
+    background-size: 476px 444px;
+    width: 73px;
+    height: 67px;
+}
+.icon-accept_1:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../images/sprite.png');
+    background-position: 0px 0px;
+    background-size: 476px 444px;
+    width: 116px;
+    height: 135px;
+}
+.icon-accept_2:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../images/sprite.png');
+    background-position: -385px -118px;
+    background-size: 476px 444px;
+    width: 80px;
+    height: 114px;
+}
+.icon-benefits_1:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../images/sprite.png');
+    background-position: -121px 0px;
+    background-size: 476px 444px;
+    width: 116px;
+    height: 135px;
+}
+.icon-benefits_2:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../images/sprite.png');
+    background-position: -385px 0px;
+    background-size: 476px 444px;
+    width: 91px;
+    height: 113px;
+}
+.icon-calc_1:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../images/sprite.png');
+    background-position: 0px -379px;
+    background-size: 476px 444px;
+    width: 100px;
+    height: 65px;
+}
+.icon-calc_2:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../images/sprite.png');
+    background-position: -146px -235px;
+    background-size: 476px 444px;
+    width: 141px;
+    height: 79px;
+}
+.icon-content_1:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../images/sprite.png');
+    background-position: -242px 0px;
+    background-size: 476px 444px;
+    width: 138px;
+    height: 90px;
+}
+.icon-content_2:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../images/sprite.png');
+    background-position: -105px -379px;
+    background-size: 476px 444px;
+    width: 101px;
+    height: 58px;
+}
+.icon-content_3:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../images/sprite.png');
+    background-position: -242px -95px;
+    background-size: 476px 444px;
+    width: 107px;
+    height: 106px;
+}
+.icon-content_4:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../images/sprite.png');
+    background-position: -385px -237px;
+    background-size: 476px 444px;
+    width: 83px;
+    height: 76px;
+}
+.icon-content_5:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../images/sprite.png');
+    background-position: 0px -235px;
+    background-size: 476px 444px;
+    width: 141px;
+    height: 79px;
+}
+.icon-semple_1:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../images/sprite.png');
+    background-position: -292px -235px;
+    background-size: 476px 444px;
+    width: 44px;
+    height: 79px;
+}

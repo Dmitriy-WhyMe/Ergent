@@ -1,0 +1,131 @@
+{% extends "layout.html" %}
+
+{% set title = 'Catalog' %}
+{% set page = 'catalog' %}
+
+{% block content %}
+
+<!-- Navigation -->
+{% include 'partials/header.html' %}
+
+
+
+<div class="servic-hd">
+    <div class="container">
+        <ul class="breadcrumbs">
+            <li><a href="#">Главная</a></li>
+            <!--<li><a href="#" class="active">Услуги</a></li>-->
+            <li>Услуги</li>
+        </ul>
+        <h2 class="servic-hd_title">Готовая продукция</h2>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="catalog">
+        <div class="catalog__sidebar">
+            <form action="#" class="catalog__filter" method="get">
+                <div class="catalog__sidebar_item">
+                    <div class="catalog__title">Отрасль</div>
+                    <label class="catalog__label"><input type="checkbox" checked><i></i>Метталургия</label>
+                    <label class="catalog__label"><input type="checkbox"><i></i>Гибка металлов</label>
+                    <label class="catalog__label"><input type="checkbox"><i></i>Штамповка</label>
+                    <label class="catalog__label"><input type="checkbox" checked><i></i>Протяжка</label>
+                    <label class="catalog__label"><input type="checkbox"><i></i>Протяжка</label>
+                    <label class="catalog__label"><input type="checkbox"><i></i>Протяжка</label>
+                </div>
+                <div class="catalog__sidebar_item">
+                    <div class="catalog__title">Материал</div>
+                    <label class="catalog__label"><input type="checkbox"><i></i>Метталургия</label>
+                    <label class="catalog__label"><input type="checkbox"><i></i>Гибка металлов</label>
+                    <label class="catalog__label"><input type="checkbox"><i></i>Штамповка</label>
+                    <label class="catalog__label"><input type="checkbox"><i></i>Протяжка</label>
+                    <label class="catalog__label"><input type="checkbox"><i></i>Протяжка</label>
+                    <label class="catalog__label"><input type="checkbox"><i></i>Протяжка</label>
+                </div>
+                
+            </form>
+        </div>
+        <div class="catalog__content">
+            <form action="#" class="catalog__search" method="get">
+                <input type="search" class="catalog__input" placeholder="Поиск по каталогу продукции">
+                <button type="submit" class="btn catalog__submit">Найти</button>
+            </form>
+
+            <div class="products_list products_list-small">
+                <a href='#' class="products_item" style="background-image: url('../img/product/product-1.jpg')">
+                    <p><span>Штампованная продукция</span></p>
+                </a>
+                <a href='#' class="products_item" style="background-image: url('../img/product/product-1.jpg')">
+                    <p><span>Подпись продукта</span></p>
+                </a>
+                <a href='#' class="products_item" style="background-image: url('../img/product/product-1.jpg')">
+                    <p><span>Поковки стальные штампованные</span></p>
+                </a>
+                <a href='#' class="products_item" style="background-image: url('../img/product/product-1.jpg')">
+                    <p><span>Опоры для трубопроводов</span></p>
+                </a>
+                <a href='#' class="products_item" style="background-image: url('../img/product/product-1.jpg')">
+                    <p><span>Поковки стальные штампованные</span></p>
+                </a>
+                <a href='#' class="products_item" style="background-image: url('../img/product/product-1.jpg')">
+                    <p><span>Подпись продукта</span></p>
+                </a>
+                <a href='#' class="products_item" style="background-image: url('../img/product/product-1.jpg')">
+                    <p><span>Опоры для трубопроводов</span></p>
+                </a>
+                <a href='#' class="products_item" style="background-image: url('../img/product/product-1.jpg')">
+                    <p><span>Подпись продукта</span></p>
+                </a>
+            </div>
+
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li><a class="pagination__link pagination__link-arrow disabled" href="#">‹</a></li>
+                    <li><a class="pagination__link active" href="#">1</a></li>
+                    <li><a class="pagination__link" href="#">2</a></li>
+                    <li><a class="pagination__link" href="#">3</a></li>
+                    <li><a class="pagination__link pagination__link-arrow" href="#">›</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="content">
+    <div class="container">
+        <div class="content_desk">
+            <h2>Дополнительно о гибке металла</h2>
+            <p>Гибка листового металла является наиболее качественным методом производства монолитного вида конструкции без швов. На металлообрабатывающих предприятиях сегодня гибки применяют современные листогибочные прессы с болишими техническими возможностями.</p>
+            <p>Листогибы используют для сгибания профилей под разнообразными углами и для работы с кромками. Такие процессы осуществляются с применением пуансона, который устанавливается на рамке ползуна, а также матрицы на плите либо прокладке пресса. Пуансоны различаются на формам и радиусам гибки. Испооьзуемая матрица обладает формой угла лтбо прямого паза.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+{% include 'partials/footer.html' %}
+
+
+{% endblock content %}
+
+
+{% block js %}
+<!--js-->
+{% endblock %}

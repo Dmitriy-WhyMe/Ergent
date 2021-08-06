@@ -1,0 +1,101 @@
+{% extends "layout.html" %}
+
+{% set title = 'Second' %}
+{% set page = 'second' %}
+
+{% block content %}
+
+<!-- Navigation -->
+{% include 'partials/header.html' %}
+
+
+<div class="servic-hd">
+    <div class="container">
+        <ul class="breadcrumbs">
+            <li><a href="#">Контакты</a></li>
+            <!--<li><a href="#" class="active">Услуги</a></li>-->
+            <li>Услуги</li>
+        </ul>
+        <h2 class="servic-hd_title">Готовая продукция</h2>
+    </div>
+</div>
+
+
+<!-- Begin Map -->
+
+<div class="map" id="map">
+    <div class="map_yandex"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3601f28aa92f74f4ae32159fd083bd96e9ecd8b5cdfa42b918359eeda119f6bd&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=false"></script></div>
+    <div class="container">
+        <div class="map_block">
+            <h5>Санкт-Петербург</h5>
+            <div class="map_data">
+                <div class="map_data-link"><img src="img/local.svg" alt="local"><a href="#"> 195279, Санкт-Петербург, шоссе Революции, д.63</a></div>
+                <div class="map_data-link"> <img src="img/phone.svg" alt="phone"><a href="tel:+7 (812) 333-1-777">  +7 (812) 333-1-777</a></div>
+                <div class="map_data-link"> <img src="img/mail.svg" alt="mail"><a href="mailto:mail@ergent.ru">  mail@ergent.ru</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- End Map -->
+
+
+<div class="container">
+    <div class="contacts">
+        <div class="contacts__info">
+            <div class="title">
+                <h2 class="title_point">Реквизиты</h2>
+            </div>
+            <p>Общество с ограниченной ответственностью «ТЕТА» (ООО «ТЕТА»)<br>
+                ИНН 7842450758 КПП 784201001 <br>
+                В СЕВЕРО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК <br>
+                р/с 40702810155040004780<br>
+                к/с 30101810500000000653<br>
+                к/с 30101810500000000653<br>
+                191119 Санкт-Петербург,Лиговский пр-кт, д.108, А-1<br>
+                БИК 044030653<br>
+                ОГРН 1117847134987<br>
+                ОКПО 90840293 </p>
+        </div>
+        <div class="contacts__order">
+            <div class="title">
+                <h2>Напишите нам</h2>
+            </div>
+            <form class="contacts__form" action="#" method="post">
+                <input type="text" class="contacts__input contacts__input-name" placeholder="Ваше имя" required name="name">
+                <input type="email" class="contacts__input contacts__input-email" placeholder="Ваш e-mail" required name="email">
+                <textarea name="message" class="contacts__textarea" placeholder="Сообщение"></textarea>
+                <label class="accept_form_file" data-desk="Вы можете добавить к заявке файл проекта и мы его бесплатно просчитаем">
+                    <input type="file">
+                    Прикрепить файл
+                </label>
+                <button class="btn" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% include 'partials/footer.html' %}
+
+
+{% endblock content %}
+
+
+{% block js %}
+<!--js-->
+{% endblock %}

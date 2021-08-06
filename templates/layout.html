@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        {% if title %}
+        {{ title }} | SiteName
+        {% else %}
+        Layout with Nunjucks
+        {% endif %}
+    </title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <!-- build:css css/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <link rel="stylesheet" href="css/sprite.css">
+    <!--<link rel="stylesheet" href="bower_components/bootstrap4/dist/css/bootstrap-grid.css">-->
+    <!-- endbuild -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- endbuild -->
+</head>
+<body>
+
+
+<!-- Page Content -->
+{% block content %}
+
+{% endblock %}
+<!-- / Page Content  -->
+
+
+<!-- build:js js/vendor.js -->
+<!-- bower:js -->
+<!-- endbower -->
+<!-- endbuild -->
+<!-- build:js js/main.js -->
+<script src="js/main.js"></script>
+<!-- endbuild -->
+
+
+{% block js %}
+
+{% endblock %}
+</body>
+</html>

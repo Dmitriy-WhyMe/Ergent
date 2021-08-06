@@ -1,0 +1,583 @@
+{% extends "layout.html" %}
+
+{% set title = 'Home' %}
+{% set page = 'home' %}
+
+{% block content %}
+
+<!-- Navigation -->
+{% include 'partials/header.html' %}
+
+
+<div class="overflow">
+    <!-- Begin Header -->
+
+    <div class="servic-hd">
+        <div class="container">
+            <ul class="breadcrumbs">
+                <li><a href="#">Главная</a></li>
+                <!--<li><a href="#" class="active">Услуги</a></li>-->
+                <li>Услуги</li>
+            </ul>
+            <h2 class="servic-hd_title">Гибка металЛов</h2>
+            <a href="#pop-form" class="header_order btn">Заказать</a>
+        </div>
+    </div>
+
+    <!-- End HEader -->
+
+    <!-- Begin Content -->
+
+    <div class="content">
+        <div class="container">
+            <div class="title">
+                <h2 class="title_text white title_point">Гибка листового металла</h2>
+            </div>
+            <div class="content_section">
+                <div class="content_images">
+                    <div class="content_images_item icon-content_1"><img src="img/services_1.jpg" alt="content img">
+                    </div>
+                    <div class="content_images_item icon-content_2 content_images_item-2"><img src="img/services_2.jpg"
+                                                                                               alt="content img"></div>
+                    <div class="content_images_item icon-content_3 content_images_item-3"><img src="img/services_3.jpg"
+                                                                                               alt="content img"></div>
+                </div>
+                <div class="content_text">
+                    <p><a href="#">fdfsf</a> Гибка листового металла является наиболее качественным методом производства монолитного вида
+                        конструкции без швов. На металлообрабатывающих предприятиях сегодня гибки применяют современные
+                        листогибочные прессы с болишими техническими возможностями.</p>
+                    <p>Листогибы используют для сгибания профилей под разнообразными углами и для работы с кромками.
+                        Такие процессы осуществляются с применением пуансона, который устанавливается на рамке ползуна,
+                        а также матрицы на плите либо прокладке пресса. Пуансоны различаются на формам и радиусам гибки.
+                        Испооьзуемая матрица обладает формой угла лтбо прямого паза.</p>
+                    <ul>
+                        <li>Гибка листового металла является</li>
+                        <li>Гибка листового металла листового металла является</li>
+                        <li>Гибка листового металла является</li>
+                        <li>Гибка листового металла является металла</li>
+                        <li>Гибка листового металла является наиболее качественным методом производства монолитного вида
+                            конструкции без швов.
+                        </li>
+                        <li>Гибка листового металла является</li>
+                        <li>Гибка листового металла является</li>
+                        <li>Гибка листового металла является</li>
+                        <li>Гибка листового металла является наиболее качественным методом производства</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content_desk">
+                <p>Гибка листового металла является наиболее качественным методом производства монолитного вида
+                    конструкции без швов. На металлообрабатывающих предприятиях сегодня гибки применяют современные
+                    листогибочные прессы с болишими техническими возможностями.</p>
+                <p>Листогибы используют для сгибания профилей под разнообразными углами и для работы с кромками. Такие
+                    процессы осуществляются с применением пуансона, который устанавливается на рамке ползуна, а также
+                    матрицы на плите либо прокладке пресса. Пуансоны различаются на формам и радиусам гибки.
+                    Испооьзуемая матрица обладает формой угла лтбо прямого паза.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Coneten -->
+
+    <!-- Begin Price -->
+
+    <div class="price">
+        <div class="container">
+            <h2 class="price__title">Цены гибки</h2>
+            <table cellspacing='0' border="0" class="cart__table">
+                <tr>
+                    <th>100 px</th>
+                    <th>Country</th>
+                    <th>Company</th>
+                </tr>
+                <tr>
+                    <td>6541652453</td>
+                    <td>USA</td>
+                    <td>Apple Inc</td>
+                </tr>
+                <tr>
+                    <td>100 000</td>
+                    <td>Sweden</td>
+                    <td>IKEA Furnitures</td>
+                </tr>
+                <tr>
+                    <td>35714534</td>
+                    <td>Finland</td>
+                    <td>Nokia Communications</td>
+                </tr>
+                <tr>
+                    <td>35714534</td>
+                    <td>Sweden</td>
+                    <td>IKEA Furnitures</td>
+                </tr>
+                <tr>
+                    <td>614466418</td>
+                    <td>Finland</td>
+                    <td>Nokia Communications</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- End Price -->
+
+
+    <div class="container">
+        <div class="calc">
+            <div class="icon-calc_1"></div>
+            <div class="icon-calc_2"></div>
+            <div class="title">
+                <h2>Расчет стоимости</h2>
+            </div>
+            <form action="#" method="post" class="calc__form">
+                <div class="calc__item active">
+                    <div class="calc__wrapper">
+                        <div class="calc__row">
+                            <div class="calc__col-12">
+                                <div class="calc__title">ПАРАМЕТРЫ ИЗДЕЛИЯ <span>1/4</span></div>
+                            </div>
+                            <div class="calc__col-3">
+                                <label class="calc__label">
+                                    <span>Высота, мм:</span>
+                                    <input type="number" class="calc__input" name="calc_1" required>
+                                </label>
+                            </div>
+                            <div class="calc__col-3">
+                                <label class="calc__label">
+                                    <span>Ширина, мм:</span>
+                                    <input type="number" class="calc__input" name="calc_2" required>
+                                </label>
+                            </div>
+                            <div class="calc__col-3">
+                                <label class="calc__label">
+                                    <span>Толщина, мм:</span>
+                                    <input type="number" class="calc__input" name="calc_3" required>
+                                </label>
+                            </div>
+                            <div class="calc__col-3">
+                                <label class="calc__label">
+                                    <span>Кол-во изделий:</span>
+                                    <input type="number" class="calc__input" name="calc_4" value="1" min="1">
+                                </label>
+                            </div>
+                            <!--<div class="calc__col-6">-->
+                            <!--<label class="calc__label">-->
+                            <!--<span>Предполагаемая длина лазерного реза, мм:</span>-->
+                            <!--<input type="text" class="calc__input">-->
+                            <!--</label>-->
+                            <!--</div>-->
+                            <div class="calc__col-6">
+                                <label class="calc__label">
+                                    <span>Выберите материал:</span>
+                                    <select name="name_6" class="calc__select">
+                                        <option value="8.2">Нержавеющая сталь</option>
+                                        <option value="2.95">Алюмииний</option>
+                                        <option value="7.95">Сталь</option>
+                                    </select>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="calc__img">
+                            <img src="img/calc_1.png" alt="calc">
+                        </div>
+                    </div>
+                    <div class="calc__bottom">
+                        <a href="#" class="btn calc__btn ml-auto js-next-1">Далее</a>
+                    </div>
+                </div>
+                <div class="calc__item">
+                    <div class="calc__wrapper">
+                        <div class="calc__row">
+                            <div class="calc__col-12">
+                                <div class="calc__title">ГИБКА <span>2/4</span></div>
+                            </div>
+                            <div class="calc__col-6">
+                                <label class="calc__label">
+                                    <span>Количество сгибов:</span>
+                                    <input type="number" class="calc__input" name="calc_5">
+                                </label>
+                            </div>
+                            <div class="calc__col-12"></div>
+                            <div class="calc__col-6">
+                                <label class="calc__label">
+                                    <input type="checkbox" class="calc__checkbox" name="calc_5_check"><i></i>
+                                    <span>Без сгибов</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="calc__img">
+                            <img src="img/calc_2.png" alt="calc">
+                        </div>
+                    </div>
+                    <div class="calc__bottom">
+                        <a href="#" class="btn calc__btn calc__back js-back">Назад</a>
+                        <a href="#" class="calc__next ml-auto js-next">Пропустить</a>
+                        <a href="#" class="btn calc__btn js-next">Далее</a>
+                    </div>
+                </div>
+                <div class="calc__item">
+                    <div class="calc__wrapper">
+                        <div class="calc__row">
+                            <div class="calc__col-12">
+                                <div class="calc__title">СВАРКА <span>3/4</span></div>
+                            </div>
+                            <div class="calc__col-6">
+                                <label class="calc__label">
+                                    <span>Выберите тип сварки:</span>
+                                    <select name="name_7" class="calc__select">
+                                        <option value="dsd">Ручная дуговая сварка</option>
+                                        <option value="dsd">Ручная дуговая сварка</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <!--<div class="calc__col-3">-->
+                            <!--<label class="calc__label">-->
+                            <!--<span>Кол-во швов:</span>-->
+                            <!--<input type="text" class="calc__input">-->
+                            <!--</label>-->
+                            <!--</div>-->
+                            <div class="calc__col-3">
+                                <label class="calc__label">
+                                    <span>Длина швов, мм:</span>
+                                    <input type="text" class="calc__input" name="calc_6">
+                                </label>
+                            </div>
+                            <div class="calc__col-6">
+                                <label class="calc__label">
+                                    <input type="checkbox" class="calc__checkbox" name="calc_color"><i></i>
+                                    <span>Без сварки</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="calc__img">
+                            <img src="img/calc_3.png" alt="calc">
+                        </div>
+                    </div>
+                    <div class="calc__bottom">
+                        <a href="#" class="btn calc__btn calc__back js-back">Назад</a>
+                        <a href="#" class="calc__next ml-auto js-next">Пропустить</a>
+                        <a href="#" class="btn calc__btn js-next">Далее</a>
+                    </div>
+                </div>
+                <div class="calc__item">
+                    <div class="calc__wrapper">
+                        <div class="calc__row">
+                            <div class="calc__col-12">
+                                <div class="calc__title">ПОРОШКОВАЯ ПОКРАСКА <span>4/4</span></div>
+                            </div>
+                            <div class="calc__col-3">
+                                <label class="calc__label">
+                                    <input type="radio" class="calc__radio" name="radio_1" value="150" checked><i></i>
+                                    <span>С двух сторон</span>
+                                </label>
+                                <label class="calc__label">
+                                    <input type="radio" class="calc__radio" name="radio_1" value="300"><i></i>
+                                    <span>С одной стороны</span>
+                                </label>
+                                <label class="calc__label">
+                                    <input type="radio" class="calc__radio" name="radio_1" value="0"><i></i>
+                                    <span>Без покраски</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="calc__img">
+                            <img src="img/calc_4.png" alt="calc">
+                        </div>
+                    </div>
+                    <div class="calc__bottom">
+                        <a href="#" class="btn calc__btn calc__back js-back">Назад</a>
+                        <a href="#" class="calc__next ml-auto js-next">Пропустить</a>
+                        <a href="#" class="btn calc__btn js-next">Далее</a>
+                    </div>
+                </div>
+                <div class="calc__item">
+                    <div class="calc__wrapper calc__res">
+                        <div class="calc__row">
+                            <div class="calc__col-12">
+                                <div class="calc__title">Перечень работ</div>
+                            </div>
+                            <div class="calc__col-4">
+                                <p>Ширина детали: 40 мм</p>
+                                <p>Высота детали: 45 мм</p>
+                                <p>Глубина детали: 15 мм</p>
+                                <p>Длина лазерного реза: 50 мм</p>
+                            </div>
+                            <div class="calc__col-4">
+                                <p>Кол-во изделий: 56</p>
+                                <p>Порошковая покраска: Нет</p>
+                                <p>Материал: Нержавейка</p>
+                                <p>Кол-во сгибов: 5 шт</p>
+                            </div>
+                            <div class="calc__col-4">
+                                <p>Сварка: Нет</p>
+                                <p>Порошковая покраска: Да</p>
+                                <p>Материал: Сталь</p>
+                                <p>Кол-во сгибов: 2 шт</p>
+                            </div>
+                        </div>
+                        <div class="calc__res_col">
+                            <div class="calc__title">Примерная стоимость</div>
+                            <div class="calc__result">5 000 руб</div>
+                        </div>
+                    </div>
+                    <div class="calc__bottom">
+                        <a href="#" class="btn calc__btn calc__back js-back">Назад</a>
+                        <a href="#" class="calc__next ml-auto js-first">Расчитать заново</a>
+                        <a href="#" class="btn calc__btn js-next">Узнать точную стоимость</a>
+                        <!--<button class="btn calc__btn" type="submit">Узнать точную стоимость</button>-->
+                    </div>
+                </div>
+
+
+                <div class="calc__item">
+                    <div class="calc__wrapper">
+                        <div class="calc__row calc__row-full">
+                            <div class="calc__col-12">
+                                <div class="calc__title">Оставьте свои контакты и получите точный расчет стоимости</div>
+                            </div>
+                            <div class="calc__col-3">
+                                <label class="calc__label">
+                                    <span>Ваше имя</span>
+                                    <input type="text" class="calc__input" name="name">
+                                </label>
+                            </div>
+                            <div class="calc__col-3">
+                                <label class="calc__label">
+                                    <span>Ваш телефон</span>
+                                    <input type="tel" class="calc__input" name="phone">
+                                </label>
+                            </div>
+                            <div class="calc__col-3">
+                                <label class="calc__label">
+                                    <span>или Email</span>
+                                    <input type="email" class="calc__input" name="email">
+                                </label>
+                            </div>
+                            <div class="calc__col-3">
+                                <div class="calc__label">
+                                    <button class="btn calc__btn" type="submit">Получить расчет</button>
+                                </div>
+                            </div>
+                            <div class="calc__col-12">
+                                <label class="calc__label">
+                                    <input type="checkbox" class="calc__checkbox" required><i></i>
+                                    <span>Даю согласие</span>
+                                </label>
+                            </div>
+                            <!--<div class="calc__col-6">-->
+                            <!--<label class="calc__label">-->
+                            <!--<span>Предполагаемая длина лазерного реза, мм:</span>-->
+                            <!--<input type="text" class="calc__input">-->
+                            <!--</label>-->
+                            <!--</div>-->
+                        </div>
+                    </div>
+                    <div class="calc__bottom">
+                        <a href="#" class="btn calc__btn calc__back js-back">Назад</a>
+
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Beging Semple Slider -->
+
+    <div class="semple">
+        <div class="container">
+            <div class="title">
+                <h2 class="title_text title_point">Примеры гибки</h2>
+            </div>
+            <div class="semple_slider">
+                <div class="icon-semple_1"></div>
+                <div class="swiper-container semple-swiper">
+                    <div class="swiper-wrapper js-gallery">
+                        <div class="swiper-slide semple_swiper-item">
+                            <a href="img/slider/slider-1.jpg" class="semple_swiper-img">
+                                <img src="img/slider/slider-1.jpg" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide semple_swiper-item">
+                            <a href="img/slider/slider-2.jpg" class="semple_swiper-img">
+                                <img src="img/slider/slider-2.jpg" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide semple_swiper-item">
+                            <a href="img/slider/slider-3.jpg" class="semple_swiper-img">
+                                <img src="img/slider/slider-3.jpg" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide semple_swiper-item">
+                            <a href="img/slider/slider-3.jpg" class="semple_swiper-img">
+                                <img src="img/slider/slider-3.jpg" alt="image">
+                            </a>
+                        </div>
+                        <div class="swiper-slide semple_swiper-item">
+                            <a href="img/slider/slider-3.jpg" class="semple_swiper-img">
+                                <img src="img/slider/slider-3.jpg" alt="image">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <?xml version="1.0" encoding="iso-8859-1"?>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
+						<g>
+							<path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5   c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z" />
+						</g>
+					</svg>
+                </div>
+                <div class="swiper-button-prev">
+                    <?xml version="1.0" encoding="iso-8859-1"?>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
+						<g>
+							<path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5   c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z" />
+						</g>
+					</svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Semple Slider -->
+
+    <!-- Begin accept -->
+
+
+    <div class="accept" id="calc">
+        <div class="container">
+            <div class="accept_blocks">
+                <i class="icon-accept_1"></i>
+                <i class="icon-accept_2"></i>
+                <div class="accept_task">
+                    <h4>Бесплатный расчет стоимости</h4>
+                    <ul class="accept_list">
+                        <li>в виде файлов AutoCad, КОМПАС и других,</li>
+                        <li>в виде чертежа,</li>
+                        <li>в виде рисунка,</li>
+                        <li>в виде образца,</li>
+                        <li>в виде письменного технического задания,</li>
+                        <li>в виде устного технического задания.</li>
+                    </ul>
+                </div>
+                <div class="accept_calc">
+                    <form action="#" class="accept_form">
+                        <input type="text" class="accept_form-name" name="name" placeholder="Ваше имя">
+                        <input type="text" class="accept_form-phone" name="phone" placeholder="Ваш телефон">
+                        <textarea name="chat" class="accept_form_chat"></textarea>
+                        <div class="accept_form_messg">
+                            <label class="accept_form_file"
+                                   data-desk="Вы можете добавить к заявке файл проекта и мы его бесплатно просчитаем">
+                                <input type="file">
+                                Прикрепить файл
+                            </label>
+                            <button type="button" class="accept_form_btn" data-text="Задать вопрос"></button>
+                        </div>
+                        <button type="submit" class="accept_form_send btn">Отправить</button>
+                    </form>
+                    <div class="accept__info">
+                        <div class="accept__info_text">
+                            Вы можете добавить к заявке файл проекта и мы его бесплатно просчитаем.
+                            <b>Допустимые форматы:</b>
+                        </div>
+                        <ul class="accept__info_list">
+                            <li><img src="img/accept/accept_1.png" alt="accept"></li>
+                            <li><img src="img/accept/accept_2.png" alt="accept"></li>
+                            <li><img src="img/accept/accept_3.png" alt="accept"></li>
+                            <li><img src="img/accept/accept_4.png" alt="accept"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End accept -->
+
+    <!-- Begin Our Benefits -->
+
+    <div class="benefits">
+        <div class="icon-benefits_1"></div>
+        <div class="icon-benefits_2"></div>
+        <div class="container">
+            <div class="title">
+                <h2 class="title_text">Наши преимущества</h2>
+                <div class="title_line"></div>
+            </div>
+            <div class="benefits_list">
+                <div class="benefits_item">
+                    <i class="benefits_icon"><img src="img/benefits/benefits_1.svg" width="33" height="44"
+                                                  alt="benefits"></i>
+                    <span>Быстрый и бесплатный расчет стоимости</span>
+                </div>
+                <div class="benefits_item">
+                    <i class="benefits_icon"><img src="img/benefits/benefits_2.svg" width="36" height="47"
+                                                  alt="benefits"></i>
+                    <span>Индивидуальный подход к решению задач</span>
+                </div>
+                <div class="benefits_item">
+                    <i class="benefits_icon"><img src="img/benefits/benefits_3.svg" width="36" height="44"
+                                                  alt="benefits"></i>
+                    <span>Соответствуем стандартам качества</span>
+                </div>
+                <div class="benefits_item">
+                    <i class="benefits_icon"><img src="img/benefits/benefits_4.svg" width="45" height="45"
+                                                  alt="benefits"></i>
+                    <span>Разработка проектов с нуля</span>
+                </div>
+                <div class="benefits_item">
+                    <i class="benefits_icon"><img src="img/benefits/benefits_5.svg" width="48" height="45"
+                                                  alt="benefits"></i>
+                    <span>Отсутствие минимального заказа</span>
+                </div>
+                <div class="benefits_item">
+                    <i class="benefits_icon"><img src="img/benefits/benefits_6.svg" width="45" height="45"
+                                                  alt="benefits"></i>
+                    <span>Типовое изделие за один день</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Our Benefits -->
+
+    <!-- Begin Content -->
+
+    <div class="content">
+        <div class="container">
+            <div class="content_section">
+                <div class="content_img">
+                    <img src="img/content-1.jpg" alt="image">
+                </div>
+                <div class="content_text">
+                    <h2>Дополнительно о гибке металла</h2>
+                    <p>Гибка листового металла является наиболее качественным методом производства монолитного вида
+                        конструкции без швов. На металлообрабатывающих предприятиях сегодня гибки применяют современные
+                        листогибочные прессы с болишими техническими возможностями.</p>
+                    <p>Листогибы используют для сгибания профилей под разнообразными углами и для работы с кромками.
+                        Такие процессы осуществляются с применением пуансона, который устанавливается на рамке ползуна,
+                        а также матрицы на плите либо прокладке пресса. Пуансоны различаются на формам и радиусам гибки.
+                        Испооьзуемая матрица обладает формой угла лтбо прямого паза.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- End Coneten -->
+
+
+{% include 'partials/footer.html' %}
+
+
+{% endblock content %}
+
+
+{% block js %}
+<!--js-->
+{% endblock %}

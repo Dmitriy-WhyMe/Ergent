@@ -1,0 +1,153 @@
+{% extends "layout.html" %}
+
+{% set title = 'cart' %}
+{% set page = 'cart' %}
+
+{% block content %}
+
+<!-- Navigation -->
+{% include 'partials/header.html' %}
+
+
+
+
+<!-- Begin Header -->
+
+<div class="servic-hd">
+    <div class="container">
+        <ul class="breadcrumbs">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#" class="active">Услуги</a></li>
+            <li>Угол дверной вида А штампованный</li>
+        </ul>
+    </div>
+</div>
+
+<!-- End HEader -->
+
+<div class="cart">
+    <div class="container">
+        <div class="cart__wrapper">
+            <div class="cart__title mobile-only">Угол дверной вида А штампованный</div>
+            <div class="cart__gallery">
+                <ul class="cart__slider">
+                    <li data-thumb="img/cart.jpg">
+                        <a href="img/cart.jpg"><img src="img/cart.jpg" /></a>
+                    </li>
+                    <li data-thumb="img/cart.jpg">
+                        <a href="img/cart.jpg"><img src="img/cart.jpg" /></a>
+                    </li>
+                    <li data-thumb="img/cart.jpg">
+                        <a href="img/cart.jpg"><img src="img/cart.jpg" /></a>
+                    </li>
+                </ul>
+                <div class="cart__gallery-prev"></div>
+                <div class="cart__gallery-next"></div>
+            </div>
+            <div class="cart__content">
+                <div class="cart__title pc-only">Угол дверной вида А штампованный</div>
+                <div class="cart__price">
+                    <span>Стоимость:</span>
+                    <b>25 000 руб.</b>
+                </div>
+                <a href="#" class="btn cart__btn">Заказать</a>
+                <table class="cart__table">
+                    <thead>
+                    <tr>
+                        <th colspan="2">Характеристики</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Материал</td>
+                        <td>Сталь</td>
+                    </tr>
+                    <tr>
+                        <td>Материал</td>
+                        <td>Сталь</td>
+                    </tr>
+                    <tr>
+                        <td>Материал</td>
+                        <td>Сталь</td>
+                    </tr>
+                    <tr>
+                        <td>Материал</td>
+                        <td>Сталь</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="content pb-0">
+    <div class="container">
+        <div class="title">
+            <h2 class="title_text white title_point">Описание изделия</h2>
+        </div>
+        <div class="content_desk">
+            <p>Гибка листового металла является наиболее качественным методом производства монолитного вида конструкции без швов. На металлообрабатывающих предприятиях сегодня гибки применяют современные листогибочные прессы с болишими техническими возможностями.</p>
+            <p>
+                <a href="#">dsdsd s d sd</a>
+                Листогибы используют для сгибания профилей под разнообразными углами и для работы с кромками. Такие процессы осуществляются с применением пуансона, который устанавливается на рамке ползуна, а также матрицы на плите либо прокладке пресса. Пуансоны различаются на формам и радиусам гибки. Испооьзуемая матрица обладает формой угла лтбо прямого паза.</p>
+            <ul>
+                <li>sfsd</li>
+                <li>sdsds</li>
+                <li>sdsds</li>
+                <li>sdsds</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- End Coneten -->
+
+
+
+<!-- Begin Our Products -->
+
+<div class="products products-bg" id="prod">
+    <div class="container">
+        <div class="title">
+            <h2 class="title_text title_point">Мы рекомендуем</h2>
+        </div>
+        <div class="products_list">
+            <a href='#' class="products_item" style="background-image: url('../img/product/product-1.jpg')">
+                <p>Штампованная продукция</p>
+            </a>
+            <a href='#' class="products_item" style="background-image: url('../img/product/product-1.jpg')">
+                <p>Подпись продукта</p>
+            </a>
+            <a href='#' class="products_item" style="background-image: url('../img/product/product-1.jpg')">
+                <p>Поковки стальные штампованные</p>
+            </a>
+            <a href='#' class="products_item" style="background-image: url('../img/product/product-1.jpg')">
+                <p>Опоры для трубопроводов</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- End Our Products -->
+
+
+
+
+
+
+
+
+
+
+
+{% include 'partials/footer.html' %}
+
+
+{% endblock content %}
+
+
+{% block js %}
+<!--js-->
+{% endblock %}
