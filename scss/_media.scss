@@ -90,6 +90,12 @@
     right: -95px;
   }
 }
+// Medium devices (tablets, less than 1560px)
+@media (max-width: 1560px){
+  .dop-video .header__video-wrapp .header__video{
+    margin-top: -10%;
+  }
+}
 // Medium devices (tablets, less than 1366px)
 @media (max-width: 1366px){
   .delivery > .img__back--one {
@@ -113,6 +119,35 @@
 }
 // Medium devices (tablets, less than 1024px)
 @media (max-width: 1024px){
+  .dop-video .img__back--one{
+    max-width: 300px;
+    width: 100%;
+    right: 25px;
+    top: 90px;
+  }
+  .gasketing .gasketing__item .two{
+    right: -5px;
+  }
+  .gasketing .img__back--one{
+    top: -49px;
+    right: 0px;
+  }
+  .advantages .img__back--one {
+    top: 55px;
+    left: 9px;
+  }
+  .description-block .flex_block{
+    justify-content: center;
+  }
+  .advantages .flex_block__two .img .two{
+    right: -4px;
+  }
+  .scope .flex_block{
+    align-items: unset;
+  }
+  .dop-video .header__video-wrapp .header__video{
+    margin-top: -90px;
+  }
   .individually__text--one{
     margin-right: 0px;
   }
@@ -138,6 +173,12 @@
 }
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991px) {
+  .dop-video .img__back--one{
+    max-width: 230px;
+    width: 100%;
+    right: 10px;
+    top: 100px;
+  }
   .start_page .flex_block h2 {
     font-size: 25px;
     max-width: 425px;
@@ -245,7 +286,62 @@
 
 
 
-
+  .dop-video .header__video-wrapp .header__video{
+    margin-top: 0px;
+  }
+  .dop-video {
+    height: 360px;
+  }
+  .gasketing .svg__line{
+    left: 35px;
+  }
+  .gasketing{
+    padding-bottom: 395px;
+  }
+  .gasketing .flex_block{
+    flex-direction: column;
+  }
+  .gasketing .gasketing__item .one{
+    top: 20px;
+  }
+  .gasketing .gasketing__item .two{
+    top: 150px;
+  }
+  .dop-bottom .svg__line{
+    display: none;
+  }
+  .description-block .flex_block .flex__item{
+    max-width: 355px;
+  }
+  .advantages .flex_block__one, .advantages .flex_block__two{
+    flex-direction: column;
+    align-items: center;
+  }
+  .advantages .flex_block__two .flex__item{
+    margin-right: 0px;
+    margin-top: 20px;
+  }
+  .advantages .flex_block__two{
+    flex-direction: column-reverse;
+  }
+  .advantages h2, .description-block h2, .gasketing .gasketing__item h2, .scope h2, .tech h2, .dop-bottom h2{
+    font-size: 4rem;
+  }
+  .dop-bottom{
+    flex-direction: column;
+    align-items: center;
+    h2{
+      margin-right: 0px;
+      max-width: 100%;
+    }
+    p{
+      max-width: 100%;
+    }
+  }
+  .scope .flex_block{
+    flex-direction: column;
+    align-items: center;
+  }
   .content_images{
     flex-direction: row;
     flex-wrap: wrap;
@@ -556,6 +652,70 @@
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767px) {
+  .dop-video .img__back--one{
+    display: none;
+  }
+  .dop-video {
+    height: auto;
+  }
+  .gasketing .img__back--one, .advantages .img__back--one, .advantages .img__back--two{
+    display: none;
+  }
+  .advantages h2, .description-block h2, .gasketing .gasketing__item h2, .scope h2, .tech h2, .dop-bottom h2{
+    font-size: 3rem;
+    line-height: 33px;
+  }
+  .gasketing .gasketing__item p{
+    font-size: 14px;
+  }
+  .gasketing .svg__line{
+    display: none;
+  }
+  .gasketing__item img{
+    position: initial !important;
+  }
+  .gasketing .gasketing__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gasketing{
+    padding-bottom: 0px;
+  }
+  .gasketing .gasketing__item .one{
+    margin-top: 20px;
+    width: 100%;
+  }
+  .advantages .flex_block__one img, .advantages .flex_block__two img{
+    width: 100%;
+  }
+  .description-block, .advantages, .scope, .tech, .dop-bottom{
+    margin-top: 50px;
+  }
+  .advantages h2, .scope h2{
+    margin-bottom: 30px;
+  }
+  .description-block > svg, .advantages > svg, .scope > svg, .tech > svg{
+    width: 85px;
+  }
+  .advantages > svg, .scope > svg{
+    top: -35px;
+  }
+  .advantages .flex_block__two .img .two{
+    position: initial;
+  }
+  .advantages .flex_block__two .img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .advantages .flex_block__two .img .one{
+    width: 100%;
+    height: auto;
+  }
+  .gasketing .gasketing__item a, .description-block .flex_block .flex__item p, .advantages .flex_block__one .flex__item p, .advantages .flex_block__two .flex__item p, .scope .flex_block .flex_item p, .dop-bottom p{
+    font-size: 14px;
+  }
   .header{
     background: #3c3931 url('../images/bg_mobile.jpg') center/cover;
   }

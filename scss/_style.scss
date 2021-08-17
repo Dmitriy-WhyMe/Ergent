@@ -179,6 +179,66 @@ body{
 .bg_filter{
   background: url(../img/effect_pix.png),url(../img/effect_line.png) center;
 }
+.dop-video{
+  position: relative;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  padding: 0rem;
+  
+  .img__back--one{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    max-width: 359px;
+    width: 100%;
+    right: 123px;
+    top: 75px;
+  }
+  &:before{
+    background: none;
+  }
+  &:after{
+    background: none;
+  }
+  .header__video-wrapp{
+    position: absolute;
+    overflow: hidden;
+    z-index: -999;
+    max-height: 400px;
+    display: block;
+    width: 100%;
+    &:before{
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      background: url(../images/effect_pix.png) repeat top left;
+      z-index: 5;
+    }
+    .black__video{
+      background:#000;
+      opacity: 0.7;
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .header__video {
+      display: block;
+      position: relative;
+      z-index: 0;
+      width: 100%;
+      margin-top: -350px;
+    }
+  }
+}
 
 //.popup {
 //  display: none;
@@ -1903,7 +1963,303 @@ body{
 .pb-0{
   padding-bottom: 0;
 }
-
+/* Start page services -> gasketing */
+.gasketing{
+  position: relative;
+  .img__back--one{
+    position: absolute;
+    z-index: 10;
+    right: -76px;
+    top: -16px;
+  }
+  .svg__line{
+    position: absolute;
+    left: -55px;
+    top: 35px;
+  }
+  .gasketing__item{
+    max-width: 543px;
+    width: 100%;
+    position: relative;
+    h2{
+      font-weight: 900;
+      font-size: 33px;
+      line-height: 46px;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+    p{
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 27px;
+      margin-bottom: 16px;
+    }
+    a{
+      color: #1881DD;
+      font-size: 18px;
+      line-height: 27px;
+      text-decoration: none;
+      border-bottom: 1px dashed #1881DD;
+    }
+    .one{
+      z-index: 1;
+      max-width: 398px;
+      max-height: 402px;
+      top: -125px;
+      left: 68px;
+      position: absolute;
+    }
+    .two{
+      z-index: 2;
+      position: absolute;
+      max-width: 270px;
+      max-height: 359px;
+      top: -252px;
+      right: -78px;
+    }
+  }
+}
+.description-block > svg{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -50px;
+  z-index: -1;
+}
+.description-block{
+  margin-top: 160px;
+  position: relative;
+  h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 46px;
+    text-align: center;
+    margin-bottom: 75px;
+    margin-bottom: 78px;
+  }
+  .flex_block{
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: baseline;
+    .flex__item{
+      max-width: 363px;
+      width: 100%;
+      .img{
+        margin: 0 auto;
+        max-width: 151px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 27px;
+        span{
+          right: 0;
+          top: 0;
+          position: absolute;
+          background: #1881DD;
+          border: 4px solid #FFFFFF;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 40px;
+          height: 40px;
+          border-radius: 100%;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 46px;
+          text-align: center;
+        }
+      }
+      p{
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+      }
+    }
+  }
+}
+.advantages > svg{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -50px;
+  z-index: -1;
+}
+.advantages{
+  margin-top: 160px;
+  position: relative;
+  .img__back--one{
+    position: absolute;
+    top: 118px;
+    left: -37px;
+  }
+  .img__back--two{
+    position: absolute;
+    bottom: -53px;
+    right: 300px;
+    z-index: 10;
+  }
+  h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 46px;
+    text-align: center;
+    margin-bottom: 75px;
+    margin-bottom: 117px;
+  }
+  .flex_block__one, .flex_block__two{
+    display: flex;
+    justify-content: space-between;
+    img{
+      max-width: 530px;
+    }
+    .flex__item{
+      max-width: 525px;
+      p{
+        display: flex;
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 300;
+        margin-bottom: 30px;
+        span{
+          display: contents;
+          font-weight: 600;
+        }
+        svg{
+          min-width: 30px;
+          min-height: 30px;
+          margin-top: 0px;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+  .flex_block__one{
+    .flex__item{
+      margin-top: 25px;
+    }
+  }
+  .flex_block__two{
+    justify-content: flex-start;
+    margin-top: 12px;
+    .flex__item{
+      margin-right: 90px;
+      margin-top: 55px;
+      p{
+        max-width: 522px;
+      }
+    }
+    .img{
+      position: relative;
+      .one{
+        max-width: 500px;
+        height: 396px;
+      }
+      .two{
+        max-width: 193px;
+        right: -60px;
+        position: absolute;
+        bottom: -35px;
+      }
+    }
+  }
+}
+.scope > svg{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -50px;
+  z-index: -1;
+}
+.scope{
+  margin-top: 150px;
+  position: relative;
+  .img__back--one{
+    position: absolute;
+    right: -55px;
+    top: 218px;
+  }
+  h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 46px;
+    text-align: center;
+    margin-bottom: 75px;
+    margin-bottom: 73px;
+  }
+  .flex_block{
+    .flex_item{
+      p{
+        margin-bottom: 20px;
+        display: flex;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 27px;
+        max-width: 570px;
+        svg{
+          max-width: 12px;
+          width: 100%;
+          margin-right: 15px;
+          margin-top: 7px;
+        }
+      }
+    }
+  }
+}
+.tech > svg{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -50px;
+  z-index: -1;
+}
+.tech{
+  margin-top: 125px;
+  position: relative;
+  h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 46px;
+    text-align: center;
+    margin-bottom: 75px;
+    margin-bottom: 71px;
+  }
+}
+.dop-bottom{
+  margin-top: 135px;
+  position: relative;
+  display: flex;
+  .svg__line{
+    position: absolute;
+    top: 35px;
+    left: -55px;
+  }
+  h2{
+    font-weight: 900;
+    font-size: 33px;
+    line-height: 46px;
+    text-transform: uppercase;
+    max-width: 626px;
+    width: 100%;
+    margin-right: 60px;
+  }
+  p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    max-width: 466px;
+    width: 100%;
+  }
+}
 /* Start page services -> Production of server cabinets */
 .flex_block{
   display: flex;
