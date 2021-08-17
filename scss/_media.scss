@@ -86,7 +86,7 @@
 }
 // Medium devices (tablets, less than 1700px)
 @media (max-width: 1700px){
-  .individually > .img__back--one{
+  .individually > svg{
     right: -95px;
   }
 }
@@ -119,7 +119,7 @@
 }
 // Medium devices (tablets, less than 1024px)
 @media (max-width: 1024px){
-  .dop-video .img__back--one{
+  .dop-video svg{
     max-width: 300px;
     width: 100%;
     right: 25px;
@@ -173,7 +173,7 @@
 }
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991px) {
-  .dop-video .img__back--one{
+  .dop-video svg{
     max-width: 230px;
     width: 100%;
     right: 10px;
@@ -652,7 +652,7 @@
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767px) {
-  .dop-video .img__back--one{
+  .dop-video svg{
     display: none;
   }
   .dop-video {

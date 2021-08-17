@@ -4556,7 +4556,7 @@ body {
 }
 
 @media (max-width: 1700px) {
-  .individually > .img__back--one {
+  .individually > svg {
     right: -95px;
   }
 }
@@ -4589,7 +4589,7 @@ body {
 }
 
 @media (max-width: 1024px) {
-  .dop-video .img__back--one {
+  .dop-video svg {
     max-width: 300px;
     width: 100%;
     right: 25px;
@@ -4647,7 +4647,7 @@ body {
 }
 
 @media (max-width: 991px) {
-  .dop-video .img__back--one {
+  .dop-video svg {
     max-width: 230px;
     width: 100%;
     right: 10px;
@@ -5205,7 +5205,7 @@ body {
 }
 
 @media (max-width: 767px) {
-  .dop-video .img__back--one {
+  .dop-video svg {
     display: none;
   }
   .dop-video {
