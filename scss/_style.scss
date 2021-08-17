@@ -186,7 +186,7 @@ body{
   align-items: center;
   padding: 0rem;
   
-  .img__back--one{
+  svg{
     position: absolute;
     right: 0px;
     top: 0px;
@@ -2010,10 +2010,11 @@ body{
       position: absolute;
     }
     .two{
+      border: 12px solid #FFFFFF;
       z-index: 2;
       position: absolute;
       max-width: 270px;
-      max-height: 359px;
+      max-height: auto;
       top: -252px;
       right: -78px;
     }
@@ -2102,6 +2103,7 @@ body{
     bottom: -53px;
     right: 300px;
     z-index: 10;
+    
   }
   h2{
     font-style: normal;
@@ -2165,6 +2167,9 @@ body{
         right: -60px;
         position: absolute;
         bottom: -35px;
+        border: 12px solid #FFFFFF;
+        max-width: 193px;
+        width: 100%;
       }
     }
   }
@@ -2198,16 +2203,23 @@ body{
     .flex_item{
       p{
         margin-bottom: 20px;
-        display: flex;
         font-weight: 300;
         font-size: 20px;
         line-height: 27px;
-        max-width: 570px;
-        svg{
-          max-width: 12px;
-          width: 100%;
-          margin-right: 15px;
-          margin-top: 7px;
+        max-width: 565px;
+        position: relative;
+        padding-left: 2.3rem;
+        &:before{
+          content: '';
+          position: absolute;
+          height: 6px;
+          width: 6px;
+          background-color: #308be6;
+          top: 8px;
+          left: 0;
+          border-radius: 50%;
+          -webkit-box-shadow: 0 0 0 3px #e3e3e3;
+          box-shadow: 0 0 0 3px #e3e3e3;
         }
       }
     }
@@ -2376,6 +2388,7 @@ body{
       position: relative;
     }
     .one_img{
+      border: 12px solid #FFFFFF;
       margin-left: 215px;
       margin-top: -50px;
       z-index: 1;
@@ -2388,6 +2401,7 @@ body{
       margin-top: -30px;
       margin-left: -110px;
       z-index: 1;
+      
     }
     .one_img{
       margin-top: 70px;
@@ -2398,6 +2412,7 @@ body{
       margin-top: -30px;
       margin-left: -110px;
       z-index: 1;
+      border: 6px solid #FFFFFF;
     }
   }
 }
@@ -2445,16 +2460,25 @@ body{
       line-height: 33px;
     }
     p{
-      svg{
-        max-width: 12px;
-        width: 100%;
-        margin-right: 15px;
-      }
       display: flex;
       align-items: center;
       font-weight: 300;
       font-size: 20px;
+      position: relative;
       line-height: 27px;
+      padding-left: 2.3rem;
+      &:before{
+        content: '';
+        position: absolute;
+        height: 6px;
+        width: 6px;
+        background-color: #308be6;
+        top: 8px;
+        left: 0;
+        border-radius: 50%;
+        -webkit-box-shadow: 0 0 0 3px #e3e3e3;
+        box-shadow: 0 0 0 3px #e3e3e3;
+      }
     }
     button{
       margin-top: 70px;

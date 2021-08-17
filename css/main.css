@@ -569,7 +569,7 @@ body {
   padding: 0rem;
 }
 
-.dop-video .img__back--one {
+.dop-video svg {
   position: absolute;
   right: 0px;
   top: 0px;
@@ -2914,10 +2914,11 @@ body {
 }
 
 .gasketing .gasketing__item .two {
+  border: 12px solid #FFFFFF;
   z-index: 2;
   position: absolute;
   max-width: 270px;
-  max-height: 359px;
+  max-height: auto;
   top: -252px;
   right: -78px;
 }
@@ -3115,6 +3116,9 @@ body {
   right: -60px;
   position: absolute;
   bottom: -35px;
+  border: 12px solid #FFFFFF;
+  max-width: 193px;
+  width: 100%;
 }
 
 .scope > svg {
@@ -3149,20 +3153,25 @@ body {
 
 .scope .flex_block .flex_item p {
   margin-bottom: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   font-weight: 300;
   font-size: 20px;
   line-height: 27px;
-  max-width: 570px;
+  max-width: 565px;
+  position: relative;
+  padding-left: 2.3rem;
 }
 
-.scope .flex_block .flex_item p svg {
-  max-width: 12px;
-  width: 100%;
-  margin-right: 15px;
-  margin-top: 7px;
+.scope .flex_block .flex_item p:before {
+  content: '';
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  background-color: #308be6;
+  top: 8px;
+  left: 0;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 3px #e3e3e3;
+  box-shadow: 0 0 0 3px #e3e3e3;
 }
 
 .tech > svg {
@@ -3366,6 +3375,7 @@ body {
 }
 
 .individually__img--one .one_img {
+  border: 12px solid #FFFFFF;
   margin-left: 215px;
   margin-top: -50px;
   z-index: 1;
@@ -3389,6 +3399,7 @@ body {
   margin-top: -30px;
   margin-left: -110px;
   z-index: 1;
+  border: 6px solid #FFFFFF;
 }
 
 .price > svg {
@@ -3451,13 +3462,22 @@ body {
           align-items: center;
   font-weight: 300;
   font-size: 20px;
+  position: relative;
   line-height: 27px;
+  padding-left: 2.3rem;
 }
 
-.price__text p svg {
-  max-width: 12px;
-  width: 100%;
-  margin-right: 15px;
+.price__text p:before {
+  content: '';
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  background-color: #308be6;
+  top: 8px;
+  left: 0;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 3px #e3e3e3;
+  box-shadow: 0 0 0 3px #e3e3e3;
 }
 
 .price__text button {
